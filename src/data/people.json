@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "Doe",
+    "firstName": "John",
+    "address": {
+      "street": "Main Street",
+      "number": "123",
+      "postalCode": "10001",
+      "city": "Anytown"
+    },
+    "birthDate": "1985-03-15"
+  },
+  {
+    "id": 2,
+    "name": "Smith",
+    "firstName": "Jane",
+    "address": null,
+    "birthDate": "1992-07-20"
+  },
+  {
+    "id": 3,
+    "name": "Garcia",
+    "firstName": "Carlos",
+    "address": {
+      "street": "Oak Avenue",
+      "number": "45",
+      "postalCode": "20002",
+      "city": "Otherville"
+    },
+    "birthDate": null
+  },
+  {
+    "id": 4,
+    "name": "Lee",
+    "firstName": "Michelle",
+    "address": null,
+    "birthDate": "1988-11-01"
+  },
+  {
+    "id": 5,
+    "name": "Brown",
+    "firstName": "David",
+    "address": {
+      "street": "Pine Lane",
+      "number": "678",
+      "postalCode": "30003",
+      "city": "Somewhere"
+    },
+    "birthDate": null
+  },
+  {
+    "id": 6,
+    "name": "Wilson",
+    "firstName": "Linda",
+    "address": null,
+    "birthDate": "1979-05-25"
+  },
+  {
+    "id": 7,
+    "name": "Jones",
+    "firstName": "Robert",
+    "address": {
+      "street": "Maple Drive",
+      "number": "9",
+      "postalCode": "40004",
+      "city": "Another Place"
+    },
+    "birthDate": null
+  },
+  {
+    "id": 8,
+    "name": "Davis",
+    "firstName": "Susan",
+    "address": null,
+    "birthDate": "1995-09-10"
+  },
+  {
+    "id": 9,
+    "name": "Miller",
+    "firstName": "Michael",
+    "address": {
+      "street": "Willow Street",
+      "number": "222",
+      "postalCode": "50005",
+      "city": "Yet Another Town"
+    },
+    "birthDate": null
+  },
+  {
+    "id": 10,
+    "name": "Rodriguez",
+    "firstName": "Maria",
+    "address": null,
+    "birthDate": "1982-04-03"
+  }
+]
