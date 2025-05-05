@@ -9,6 +9,6 @@ export type Person = {
   id: number;
   name: string;
   firstName: string;
-  address: PersonAddress;
+  address: PersonAddress | null;
   birthDate: string | null;
 };
