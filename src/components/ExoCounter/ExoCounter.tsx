@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import style from './ExoCounter.module.css';
 
 type ExoCounterProps = { 
@@ -9,6 +9,8 @@ export default function ExoCounter({ step = 1 } : ExoCounterProps) {
   
   const [count, setCount] = useState<number>(0);
 
+  //! ↓ Les fonctions "handle" simple (sans opti)
+  /*
   const handleIncr = () => {
     setCount(count => count + step);
   };
@@ -16,6 +18,19 @@ export default function ExoCounter({ step = 1 } : ExoCounterProps) {
   const handleReset = () => {
     setCount(0);
   };
+  */
+ 
+ //! ↓ Les fonctions "handle" mémorisé
+ //? Avec un dépendence à "step" (Regénérer si la valeur de "step" change)
+ const handleIncr = useCallback(() => {
+    setCount(count => count + step);
+  }, [step]);
+
+  //? Sans dépendences (Généré qu'une seul fois)
+  const handleReset = useCallback(() => {
+    setCount(0);
+  }, []);
+
 
   return (
     <div className={style.card}>
